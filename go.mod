@@ -23,6 +23,7 @@ require (
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/holiman/uint256 v1.2.3 // indirect
 	github.com/huin/goupnp v1.2.0 // indirect
+	github.com/ignition-pillar/go-zdk v0.1.0
 	github.com/inconshreveable/log15 v2.16.0+incompatible // indirect
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
