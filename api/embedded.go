@@ -8,6 +8,7 @@ import (
 type EmbeddedApi struct {
 	Accelerator embedded.AcceleratorApi
 	Htlc        embedded.HtlcApi
+	Ptlc        embedded.PtlcApi
 	Pillar      embedded.PillarApi
 	Plasma      embedded.PlasmaApi
 	Sentinel    embedded.SentinelApi
@@ -21,6 +22,7 @@ func NewEmbeddedApi(c client.Client) EmbeddedApi {
 	return EmbeddedApi{
 		Accelerator: embedded.NewAcceleratorApi(c),
 		Htlc:        embedded.NewHtlcApi(c),
+		Ptlc:        embedded.NewPtlcApi(c),
 		Pillar:      embedded.NewPillarApi(c),
 		Plasma:      embedded.NewPlasmaApi(c),
 		Sentinel:    embedded.NewSentinelApi(c),
