@@ -1,4 +1,4 @@
-module github.com/ignition-pillar/go-zdk
+module github.com/KingGorrin/go-zdk
 
 go 1.20
 
