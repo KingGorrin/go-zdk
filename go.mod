@@ -2,7 +2,7 @@ module github.com/ignition-pillar/go-zdk
 
 go 1.20
 
-require github.com/zenon-network/go-zenon v0.0.7-aplhanet
+require github.com/zenon-network/go-zenon v0.0.7-alphanet
 
 require (
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
