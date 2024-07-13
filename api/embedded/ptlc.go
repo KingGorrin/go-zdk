@@ -73,10 +73,11 @@ func (s PtlcApi) Reclaim(id types.Hash) (*nom.AccountBlock, error) {
 	), nil
 }
 
-func (s PtlcApi) Unlock(id types.Hash) (*nom.AccountBlock, error) {
+func (s PtlcApi) Unlock(id types.Hash, signature []uint8) (*nom.AccountBlock, error) {
 	data, err := definition.ABIPtlc.PackMethod(
 		definition.UnlockPtlcMethodName,
 		id,
+		signature,
 	)
 	if err != nil {
 		return nil, err
